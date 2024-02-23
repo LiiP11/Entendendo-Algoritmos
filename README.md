@@ -188,7 +188,7 @@ Quais informações você pode retirar baseando-se apenas nesta pilha de chamada
 - :question: **4.1** Escreva o código para função **soma**, vista anteriormente.
 
 - :white_check_mark: **Resposta:**
-```
+```js
 const sum = arr => {
 	if (arr.length === 0) return 0;
 
@@ -203,7 +203,7 @@ console.log(sum(array));
 - :question: **4.2** Escreva uma função recursiva que conte o numero de itens em uma lista.
 
 - :white_check_mark: **Resposta:**
-```
+```js
 const countItems = list => {
 	if (list.length === 0) return 0;
 
@@ -217,7 +217,7 @@ console.log(countItems(myList));
 - :question: **4.3** Encontre o valor mais alto em uma lista.
 
 - :white_check_mark: **Resposta:**
-```
+```js
 const maxValue = list => {
 	if (list.length === 2) {
 		return list[0] > list[1] ? list[0] : list[1];
@@ -265,7 +265,7 @@ console.log(maxValue(myList));
 - :question: **4.8** Criar uma tabela de multiplicação com todos os elementos do array. Assim, caso o seu array seja [2, 3, 7, 8, 10], você primeiro multiplicará cada elemento por 2. Depois, multiplicará cada elemento por 3 e então por 7, e assim por diante.
 
 - :white_check_mark: **Resposta:** O(n²)
-```
+```js
 const multiplicationTable = arr => {
 	let newArr = [];
 
